@@ -107,6 +107,9 @@ class Game {
                 if (fruitGroup.get(i).isTouching(players)) {
                     fruitGroup.get(i).destroy();
                     //adicione a condição para calcular a pontuação. 
+                    text, ("Player 1:" +allPlayers.player1.score,50,50);
+                    text, ("Player 2:" +allPlayers.player2.score,50,50);
+
 
                     //e use update() para atualizar os valores no banco de dados.
                    
