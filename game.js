@@ -112,8 +112,8 @@ class Game {
 
 
                     //e use update() para atualizar os valores no banco de dados.
-                        if(player.score = player.score + 1;{
-                           update()}
+                        player.score = player.score + 1
+                           
                         
                     
 
